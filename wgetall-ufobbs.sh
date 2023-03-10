@@ -1,4 +1,6 @@
 #!/bin/bash
+# wget all UFOBBS files script
+# (c) Thom Hastings 2023 GNU General Public License v3.0
 # wget all UFOBBS files from Internet Archive of UFOBBS.com
 # depends on wgetall.sh (place in same directory as this)
 
