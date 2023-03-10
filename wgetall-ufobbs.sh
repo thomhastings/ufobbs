@@ -17,6 +17,7 @@ cd 0000
 cd ..
 mkdir 1000
 cd 1000
+mv ../0000/1000.ufo . # would fix an off-by-one error if the file wasn't missing
 ../wgetall.sh ufo https://web.archive.org/web/19980707130315/http://www.ufobbs.com/txt2a.html # 1001-1100
 ../wgetall.sh ufo https://web.archive.org/web/19980707130327/http://www.ufobbs.com/txt2b.html # 1101-1200
 ../wgetall.sh ufo https://web.archive.org/web/19980707130339/http://www.ufobbs.com/txt2c.html # 1201-1300
@@ -30,6 +31,7 @@ cd 1000
 cd ..
 mkdir 2000
 cd 2000
+mv ../1000/2000.ufo . # fix an off-by-one error
 ../wgetall.sh ufo https://web.archive.org/web/19970610144435/http://www.ufobbs.com/txt3a.html # 2001-2100
 ../wgetall.sh ufo https://web.archive.org/web/19980707130529/http://www.ufobbs.com/txt3b.html # 2101-2200
 ../wgetall.sh ufo https://web.archive.org/web/19980707130541/http://www.ufobbs.com/txt3c.html # 2201-2300
@@ -43,6 +45,7 @@ cd 2000
 cd ..
 mkdir 3000
 cd 3000
+mv ../2000/3000.ufo . # fix an off-by-one error
 ../wgetall.sh ufo https://web.archive.org/web/19970610144638/http://www.ufobbs.com/txt4a.html # 3001-3100
 ../wgetall.sh ufo https://web.archive.org/web/19970610144650/http://www.ufobbs.com/txt4b.html # 3101-3200
 ../wgetall.sh ufo https://web.archive.org/web/19970610144703/http://www.ufobbs.com/txt4c.html # 3201-3300
@@ -51,3 +54,4 @@ cd ..
 echo "Done getting all .ufo files from Internet Archive of UFOBBS.com"
 
 # there was a cleaner and simpler way to do this, but I did not do it
+# fixed the off-by-one error to mimic the organization on textfiles.com
