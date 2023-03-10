@@ -1,0 +1,122 @@
+SUBJECT: AVERTING DOOM                                       FILE: UFO275
+
+PART 2
+
+Taming Ceres
+
+I confess I haven't yet computed how large a delta-v must be imparted
+to Ceres to tame it.  Making its orbit eccentric enough to cross that
+of Mars would suffice, because it could be arranged to encounter Mars
+in an appropriate way to tame it.  Besides doing this with a single
+delta-v, it would probably be cheaper to put Ceres into a suitable
+resonance with Jupiter, so that Jupiter would do the work of making
+the orbit of Ceres eccentric enough to tame it.  I don't know how
+to do this kind of computation.
+
+The most straightforward way to impart a delta-v to Ceres is to install
+a large number of nuclear reactors on it, and use the energy to expel
+fragments of Ceres in a desired direction and at an appropriate
+velocity.If maximal energy efficiency is wanted, i.e. to impart the
+maximum momentum per unit of energy used, then the appropriate velocity
+is a simple optimization problem, and it turns out to be  sqrt(2) vec,
+where  vec  is the escape velocity from Ceres.  The actual velocity
+with which the matter leaves the Ceres gravitational field is then
+vec.
+
+The number of reactors needed is large.  A million reactors each
+of 1000MWE, would give Ceres a delta-v of 1 km/sec in 1,000 years -
+if I did the arithmetic correctly.  If our descendants installed
+one reactor every thousand years, they would install a million in
+a billion years, and that is time enough to avert the prophesied
+doom.  A non-trivial fraction of the mass of Ceres would be consumed
+if energy is optimized and if 1 km/sec is needed.  Our descendants
+might decide to use a higher exhaust velocity.  More likely, it
+will turn out that a considerably smaller delta-v will do with the
+aid of Jupiter.  Our descendants might decide to use a smaller
+asteroid.
+
+
+The Broken Kepler Approximation
+
+The full computations required to determine all these trajectories
+will be quite large (though within the capacity of present computers).
+Moreover, the required information about the gravitational fields
+won't be available for a long time.  Here is an approximation that
+can give a qualitative picture and an estimate of the time required
+to move earth out a given distance or to move Mars in (a shorter time
+project).
+
+Make the following assumptions:
+
+1. The planets and the asteroid are point masses.
+
+2. The system is planar.
+
+3. The planets have masses small compared to the that of the sun.
+
+4. The asteroid has a mass small compared to that of any planet
+involved.
+
+5. The encounters between the asteroid and a planet are elastic
+collisions of point masses.  However, we assume that the possible
+angles of the collisions are limited by the radii of the planets.
+
+6. Any individual collision has a small effect on the trajectory
+of the planet.
+
+7. The asteroid departs from each collision with a velocity that
+ensures a subsequent collision with the same or a different planet.
+
+Making these assumptions leads to the following conclusions.
+
+1. The trajectory of the asteroid is a sequence of segments of
+Keplerian ellipses about the sun.  That's why we call the above
+set of assumptions the broken Kepler approximation.
+
+2. The segments are separated by elastic collisions with the planets
+conserving energy and momentum.
+
+3. For each collision there is a discrete set of deflections that
+ensure subsequent collisions.  They form a sort of spectrum.
+
+4. Computing the next collision does not require the solution of
+differential equations.  Instead one has transcendental equations
+to solve analogous to Kepler's equation (the one used to compute
+the position of a planet as a function of time).  However, it
+looks like the transcendental equation will involve two unknown
+parameters instead of the one that appears in Kepler's equation.
+
+It would be nice to have a program that would compute broken
+Kepler trajectories and display them for our contemplation.
+
+
+I hope I have convinced you that our distant descendants can
+survive the warming up of the sun until it becomes an actual
+nova.
+
+By the way, it seems to me that if the above idea is sound, it settles
+the question of the stability of the solar system - in the negative.
+Very likely an asteroid could be tamed over a sufficiently long time
+with as small an expenditure of delta-v as might be desired.  Once
+tamed it could be used with infinitesimal external force to expel a
+planet from the system.  This tells us that the current trajectory of
+the solar system is arbitarily close to one in which a planet is
+expelled.  Of course, the probability that a planet actually would be
+expelled by this mechanism in some particular finite time is extremely
+low, because maintaining the required sequence of encounters requires
+an improbable precision in the initial conditions.  I suppose a lower
+bound on the probability could be computed and from it an expected
+upper bound on the gravitational lifetime of the solar system could be
+obtained.
+
+Criticism and comments are welcome.  For a certain reason, I even
+welcome comments, however uninformed, to the effect that the whole
+idea is preposterous.  I prefer such comments to be postings rather
+than email.
+
+Mike Fitzgibbons
+
+    
+  **********************************************
+  * THE U.F.O. BBS - http://www.ufobbs.com/ufo *
+  **********************************************

@@ -1,0 +1,298 @@
+SUBJECT: THE RESONANT GRAVITY FIELD COIL                     FILE: UFO319
+
+
+__________________________________________________________________
+|                          Parts List                            |
+------------------------------------------------------------------
+
+     This, actually, is the hardest part. You will either have to
+spend a lot of $$$ at a plastics company or have some good friend
+to get but one of the parts needed, the others should be fairly
+easy.
+
+     Listed in order of availability
+
+(2) 50 VDC (DC-10 MHZ preferred, but...) @ 10A, 50KV isolated
+power supplies
+
+         (parts list for those:)
+
+(2) 110 VAC to 48 VDC @ 10A  Isolated stepdown transformers
+(500 watt)
+
+(2) 100V PIV rectifier diode
+
+Optional (2) Heatsinks for above
+
+(2) 0-120 VAC @ 10A variacs (variable autotransformer)
+
+(2) 80-100V @ 1000uF electrolytic capacitors
+
+Optional (1 or 2) Case to hold it all in
+
+(1) 25-100 KVDC (again, DC-10 MHZ preferred...) @ 100-400 uA
+(not necessarily variable) 50 kV isolated power supply
+
+         (parts list)
+
+(1) 10-12 KV @ 20-30 mA neon sign transformer
+
+(4) TV HV diodes - 12-14 KV PIV
+
+(4) HV capacitors, 500-1000 pF @ 10 KV
+
+(1) 0-120 VAC @ 10A variac (variable autotransformer)
+
+(1) Case to put it all in about 7500 feet of #16 Guage heavy
+Formvar magnetwire a lot (probably 5000 feet) of #20 or #22
+magnetwire some fiberglass tape some plastic tape TV HV corona
+dope
+
+And, the clincher:
+
+(1) Hollow plastic dia., about 30"-32" outside diameter, 24-26"
+inner diameter, and about 4"-6" thick. It must be hollow,
+thermosetting plastic, with supports for an internal coil of wire,
+and two holes for the wire to leave, spaced to avoid electrical
+discharges. It must be boiling wax-tight, preferrably with a
+gasket. And it should be openable, at least into 4 sections, with
+screwholes (and gaskets if available.)
+
+     You also need enough of equal portions of Carnubura (sp),
+beeswax, and paraffin wax to fill the inside.
+
+_________________________________________________________________
+|                       Construction                            |
+-----------------------------------------------------------------
+
+(1) Wind a 28" (about, must center inside the hollow part of the
+plastic donut) "hoop" coil of the #16 magnetwire.
+(see Illustration 1)
+
+(2) Wrap first with fiberglass and then plastic tape, and then
+dip it in TV HV corona dope. Allow to dry.
+
+(3) Place the coil inside the hollow donut.
+
+(4) Seal the donut, allowing an opening for the wax to be poured
+into.
+
+(5) Pour the wax into the donut, leaving as little air space as
+possible.
+
+(6) Seal the donut, adding any extra wax.
+
+(7) Wrap approximately one layer of the #20 or #22 guage
+magnetwire over the outside of the donut.
+
+(8) Coat with HV corona dope.
+
+(9) You are finished with the coil. It should look similar to
+illustration 2.
+See illustration 3 for a cutaway view.
+
+
+Illustration 1:
+_________________________________________________________________
+          Top View                              Side View
+
+        __                                            ||
+    ___/--\ ----- 1000 turns #16 magnetwire  ----- __//|
+       |  |                                        __/||
+    ---\__/                                           ||--
+
+-----------------------------------------------------------------
+
+
+Illustration 2:
+__________________________________________________________________
+         Top View                              Side View
+
+            ___                              /-------------\
+           \\|//                            / / / | | | \ \ \
+          |\/ \/| --- Outer Layer of #20 ---| | | | | | | | |
+          |-   -|     or #22 magnetwire     | | | | | | | | |
+          |/\ /\|                           | | | | | | | | |
+           //|\\                            \ \ \ | | | / / /
+            ---                              \-------------/
+------------------------------------------------------------------
+
+
+Illustration 3:
+__________________________________________________________________
+                        Cutaway (side) View
+
+
+         _____________________________________________________
+        / / / / / // / / // / / / | | | \ \ \ \\ \ \ \\ \ \ \ \
+       / / / / / // / / / | | | | _____ | | | | \ \ \ \\ \ \ \ \
+      / / / / / / | | | | _______/*****\_______ | | | | \ \ \ \ \
+      | | | | | |  ______/*******=======*******\_______ | | | | |
+ Plastic Donut ---|*******=====================*******| | | | | |
+(hidden by wire)| |*******=====================*******| | | | | |
+      | | | | | |  ------\***** <-\ ======*****/------- | | | | |
+      \ \ \ \ \ \ | | | | -----\   \ === /----- | | | | / / / / /
+       \ \ \ \ \ \\ \ \ \ | | | |  |  ^ | | | | / / / // / / / /
+        \ \ \ \ \ \\ \ \ \\ \ \ \  |  | / / / // / / // / / / /
+         ----------------------- ^ |  |   --------------------
+   Torodial Plastic "Donut"----^ | |  |
+inner "hoop"                       |  |
+Outer later of #20 or #22 magnetwire  |  coil of wire.
+    The *'s represent the wax misture-/
+
+------------------------------------------------------------------
+
+__________________________________________________________________
+|                 Building The Power Supplies                    |
+------------------------------------------------------------------
+
+     If you are unfamiliar with electronics, you may need some
+help with this section, as I am only presenting the schematics.
+Here they are:
+
+For both 50VDC power supplies:
+_________________________________________________________________
+
+               /---\                                   /\
+               v   |    100V Piv 15A diode            /  \
+            _mmmmm_+__    ___|\|__+__________________/0-15\__+
+           / Variac   )||(   |/|  |  1000 uF @ 80 V  \DC A/
+   =)======        110)||(48     ---  electrolytic    \  /
+           \__________)||(_____  /-\                   \/
+  120 VAC         110V to 48V  \  |-
+Grounded Plug   10A Transformer \_+__________________________-
+
+              (2) of theese are required. Note that
+        the stepdown transformer must be 50kv isolated.
+-----------------------------------------------------------------
+
+For the 100 KVDC power supply:
+_________________________________________________________________
+
+           /---\
+           v   |
+        _mmmmm_+__    ____________________+___________+__________
+       / Variac   )||(                   _|_         _|_ HV
+=)=====        110)||(8-10KV       |/    \ /14KV PIV /-\cap
+       \__________)||(_____________||_   _v_ TV HV    |
+  120 VAC        100V to 8-10KV    |\ \   |  Diode    +____+______
+Grrounded Plug  100uA Transformer  ^   \__+           |   _|_     \
+                          800-1000 pf 10KV \    TV HV-^-  \ /TV HV| $
+                              capacitor     \   diode/ \  -v-diode|
+                                             \       -|-   |     _|_   /\
+                                              \_______+    +  HV /-\  /  \
+      Note that all unmarked parts                    |    |  cap |  / 0- \
+      have the same value as their                    | |/ |      +_/ 1000 \_
+          marked counterparts.                        +_||_+_     | \      /
+                                                        |\   \   -^- \ uA /
+                                                      HV cap |   / \  \  /
+                                                             |   -|-   \/
+                                                             |    | \
+                                                             \____/  TV HV
+                                                                     diode
+
+
+----------------------------------------------------------------------------
+
+____________________________________________________________________________
+|                                    Usage                                  |
+----------------------------------------------------------------------------
+
+     To connect the power supplies to the coil, connect the wires
+leading out of the donut (from the inner coil) to one 50 VDC
+power supply. The polarity, at this stage, does not matter. Next,
+connect the leads from the outer coil to the other 50 VDC power
+supply. Do NOT turn either of them on! Now, connect one of the
+leads of the inner coil to one terminal of the 25-100 KV power
+supply, and connect one lead of the outer coil to the other
+terminal of the 25-100 KV power supply. Thats it!
+
+     Now, the hard part. You will have to figure out some way of
+modulating the fields. This could be done through stepper motor
+control of the variac, or through the insertion of a probe coil
+(probably just a ferrite rod wrapped with a few hundred turns of
+wire) into the center of the donut hole. This would then be
+modulated with whatever electromagnetic signal you'd want to
+impress upon the field. Through careful experimentation, you
+should be able to produce some very interesting effects, such as
+extreme gravity, bending of metal within the field, spontaneous
+materialization of ?, etc. Note that the purpose of the wax is to
+act as a molten dielectric, so don't be surprised when it starts
+boiling. Thats why the donut form must be made out of
+thermosetting (or any kind that doesnt melt near the temperature
+of boiling wax) plastic.
+
+     Have phun, and don't do anything you wouldnt want
+perpetuated throughout your subjective reality!
+
+                                  (_>Shadow Hawk<_)
+
+==================================================================
+|Call theese fine boards:                                        |
+|                                                                |
+| Ripco                                           (312)-528-5020 |
+| Wildfire                                       Invitation Only |
+| Pirate 80                                       (304)-744-2253 |
+==================================================================
+
+******************************************************************
+Appendix to the above paper..............by EAGLE ONE
+******************************************************************
+
+There are two modifications to the above device which should make
+the effect of the unit more powerful, while at the same time
+making it more safe for the operator to conduct his/her research.
+
+1.  In place of the wax in the coil being used as a "molten
+dielectric", it would be advantageous to use Glycerine instead.
+The "scorch field" set up between the two coils using the
+25-100kvdc supply will be approx. 25 times greater in intensity
+than with the wax.  While the dielectric constant (k) of wax is
+less than 3, the (k) of Glycerine is about 56.
+    Also, the semi-liquid state that Glycerine maintains at room
+temperature will prove to be an effective heat-sink for the inner
+coil.  Glycerine is an emollient, and can be obtained from most
+drug stores.
+
+2.  The Modulator coil (250-300 turns) on ferrite core to be
+placed into the interior of the coil shall be replaced by a coil
+larger in diamater than the outer coil of the present unit
+(as herein described) and shall be placed outside the units'
+outer coil.  This will give a more stable field configuration,
+while confining the gravitational effects to the interior of the
+device.
+
+These two modifications, while increasing the units' power, will
+also provide a level of safety not to be had in the original
+design.
+
+A word of caution! --------
+
+While operating this device, it would be wise to secure a
+non-interruptable power supply for it.  If, while the fields were
+at their maximum output, the power to the coils were to be
+suddenly interrupted, a very serious condition could arise as the
+distorted region of spacetime surrounding the coil "cut-loose"
+into the surrounding spacetime beyond the coils influenece.  A
+"pulse" of distorted spacetime might, under these conditions,
+leave the coil at high velocity, and inflict great damage to the
+surroundings near the coil.
+(Including the operator)
+
+----------------------------------------------------------------
+        DON'T SAY THAT YOU WEREN'T WARNED!!!!!!!!!!!!!!
+----------------------------------------------------------------
+
+I have been working for some time on a device to project intense
+distortions of spacetime in the form of spheres (gray holes) that
+can be directed to any target desired for the purpose of
+"molecularly inverting" that target.  This unit, properly operated,
+may be the source for such a device.  My compliments to Shadow
+Hawk for the original design!
+
+EAGLE ONE
+
+     
+  **********************************************
+  * THE U.F.O. BBS - http://www.ufobbs.com/ufo *
+  **********************************************

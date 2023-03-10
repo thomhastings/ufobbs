@@ -1,0 +1,40 @@
+SUBJECT: COMPUTER PLOT CURVE FOR UFO FLAPS                   FILE: UFO572
+
+
+
+This is a plot of the 6 equations that I found by my curvefit
+program to estimate coming years for UFO flaps. The years for
+previous UFO flaps were given as 1947, 1952, 1957, 1965, and
+1973 which I got from a UFO encyclopedia entry. In the plot
+below A=39.3+(6.5*X) where X is the flap number.
+-
+                MULTIPLE PLOT OF THE FUNCTIONS A, B, C, D, E, F
+X-VALUE           HORIZ INCREMENT  = +1900 to get year number
+             40        50        60        70        80        90        100 
+             :....:....:....:....:....:....:....:....:....:....:....:....:
+-
+ 1 FLAP#             DCAB                                                     
+ 2                           B C F D                                          
+ 3                                EBACFD
+ 4                                       DB                                   
+ 5                                        FD  C  AE                           
+ 6                                          D    C        B   E               
+ 7                                          DF      C         A    B          
+ 8                                           D         C                      
+ 9                                           DF           C                A  
+ 10                                          DF             C                 
+             :....:....:....:....:....:....:....:....:....:....:....:....:
+             40        50        60        70        80        90        100 
+From an online encyclopedia on UFOs, I found that UFO flaps
+or waves occurred in 1947,1952,1957,1965, and 1973. I used a
+mathematical curvefit program on this info to find an equation
+that fit this. Next, I incremented that equation into the
+future to find when the next UFO flaps should happen. The next
+should be spring or summer of 1991 and again in late 1997 or
+early 1998. This might help some UFO researchers be better
+prepared to do their investigations.
+
+     
+  **********************************************
+  * THE U.F.O. BBS - http://www.ufobbs.com/ufo *
+  **********************************************

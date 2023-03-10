@@ -1,0 +1,133 @@
+SUBJECT: AVERTING DOOM                                       FILE: UFO274
+
+PART 1
+
+             WASHINGTON (UPI) -- Life on Earth as we know it will
+     come to an end in 1,500 million years and the planet will
+     look more like its dusty, volcanic sister Venus in 2,500
+     million years, scientists said Wednesday.
+             But mirrors or shades potentially could shield Earth
+     from increasing heat from the sun and delay the catastrophic
+     consequences, they said. A collision with a comet or other
+     major change in the atmosphere could speed up the end of
+     life.
+             Ken Caldeira and James Kasting of Pennsylvania State
+     University calculated the doomsday estimates using computer
+     models of temperature and atmosphere changes and projections
+     of the sun's increasing heat.
+             As the sun continues to brighten and warm over time,
+     the amount of carbon dioxide in the atmosphere drops --
+     eventually to a point too low for plants to survive, the
+     scientists said in the British journal Nature.
+
+     After 2 1/2 billion years, all of Earth's water
+     would have been lost to space. That's a pretty strong
+     barrier to life,'' said Caldeira, an Earth systems
+     scientist.
+             Tyler Volk, an applied science professor at New York
+     University, suggested there may be ways to delay or prevent
+     the eventual demise of life.
+             ``Our descendants or descendant species would not
+     have to run from the devolution...they could fight,'' said
+     Volk. ``Shades in space or mirrors on the Earth that keep
+     out a small fraction of the elevated future (heat from the
+     sun) would be an option.''
+             Other possible solutions include constructing closed
+     environments such as the Biosphere 2 project in Arizona, in
+     which cycling of carbon dioxide, water and other essential
+     matter would be controlled.  Establishing controlled
+     Earth-like environments in space also could be considered,
+     Volk said.
+
+(Is it really true that mainly doom-seekers become Earth systems
+scientists, and mainly problem-solvers become applied science
+professors?)
+
+
+The most straightforward way to avoid the death of the earth from the
+overheating predicted by Caldeira and Kasting is to move the earth
+farther from the sun on whatever schedule seems appropriate to our
+descendants.
+
+Here's the best way to do it that I have been able to think of.  It is
+along the same line as what Thomas Clarke offhandedly suggested in a
+reply to my original post.  The present post contains only a
+qualitative discussion with a few numbers taken from calculations I
+made for a slightly different project - moving Mars closer to the sun
+in order to improve its climate.  I need to work on the formulas and
+the numbers some more before giving them.
+
+The method involves no new science and only predictable improvement
+in present technology.
+
+Our object is to transfer energy from the orbit of Venus to the
+orbit of the earth so that Venus will move closer to the sun and
+the earth farther away.  Jupiter could also be used.  Unfortunately,
+it seems that the matter is a bit more complicated than this, because
+the process must not only conserve energy, but it must also conserve
+angular momentum of the earth and Venus about the sun.  Maybe this
+can be done at the cost of giving Venus a more eccentric orbit, but
+maybe it requires a third planet.  (This is analogous to processes
+in atomic physics that require a third body in order to satisfy
+all the conservation laws.)
+
+The problem is to arrange for a coupling between the orbits of the
+earth and Venus and possibly another planet as well.
+
+Our tool for doing this is what I shall call a *tame asteroid*.
+A tame asteroid is one that has repeated encounters with planets.
+A small deflection of the asteroid's orbit before an encounter
+is magnified by the encounter.  The asteroid is always controlled
+so that it never stops having encounters.  The deflections
+(delta-v s) are accomplished as many encounters in advance as the
+noise in the system will permit.
+
+[This process is analogous to the trajectory of the spacecraft
+Galileo, but apparently the plan with Galileo is to give up the close
+encounters when it enters the Jovian system.  If JPL were to keep
+control of it by a sequence of encounters, it could be returned to the
+vicinity of the earth after spending sufficient time in the Jovian
+system.  I have no idea what use this might be.]
+
+The asteroid, say Ceres, has repeated encounters with the earth
+and Venus.  It passes in front of the earth and behind Venus on
+each encounter.  Thus it adds energy to the earth's orbit and takes
+it from Venus's orbit.
+
+When I was thinking about moving Mars, I made some calculations
+involving the masses of Ceres, Mars and Venus and the ratio between
+the escape velocity from Mars and the delta-v s needed to move
+Mars to the more salubrious distance of the earth's orbit.
+I got a figure of at least 330 encounters taking at least about
+two years each.  This assumed that each encounter with Mars
+transferred the maximum possible amount of energy.  Therefore, the
+computation is optimistic by some small factor, say 5.
+
+Since the earth is 9 times as massive as Mars, about 9 times as
+many encounters would be required.  At least at first, the encounters
+would take less time, because the earth and Venus are closer to the
+sun.
+
+The problem with conserving angular momentum is one I only encountered
+recently, so I haven't figured out what additional encounters might
+be needed.
+
+
+Keeping a Tame Asteroid Tame
+
+Ceres has a mass of 10^21 kilograms, so it would be important to
+make its deflections as much in advance as possible.  I assume that
+the gravitational fields of the bodies involved will have been
+measured accurately long before the project is attempted, i.e. the
+high order harmonics of the gravitational potentials will be accurately
+known.  What I don't know is this: What is the largest source of noise,
+i.e. unpredictable deflections, in the system?  I speculate that it is
+weather in the sun causing unpredictable fluctuations in the sun's
+gravitational field.  I don't know if this is right, and I hope someone
+else can shed light on how large they are likely to be.
+Continued in part 2
+
+     
+  **********************************************
+  * THE U.F.O. BBS - http://www.ufobbs.com/ufo *
+  **********************************************
