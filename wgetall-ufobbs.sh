@@ -19,7 +19,7 @@ cd 0000
 cd ..
 mkdir 1000
 cd 1000
-mv ../0000/1000.ufo . # would fix an off-by-one error if the file wasn't missing
+mv ../0000/1000.ufo . # fix an off-by-one error
 ../wgetall.sh ufo https://web.archive.org/web/19980707130315/http://www.ufobbs.com/txt2a.html # 1001-1100
 ../wgetall.sh ufo https://web.archive.org/web/19980707130327/http://www.ufobbs.com/txt2b.html # 1101-1200
 ../wgetall.sh ufo https://web.archive.org/web/19980707130339/http://www.ufobbs.com/txt2c.html # 1201-1300
