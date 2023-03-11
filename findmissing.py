@@ -2,9 +2,10 @@
 import os
 
 # %%
-dir = "./1000"
-lower_range = 2000
-upper_range = 3384
+# edit these for each dir
+dir = "./0000"
+lower_range = 0000
+upper_range = 1000
 
 
 # %%
