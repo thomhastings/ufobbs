@@ -7,7 +7,19 @@ I noticed that some [UFOBBS files on textfiles.com](http://textfiles.com/ufo/UFO
 ## wgetall-ufobbs.sh
 The script mostly calls another script I've been using for years called `wgetall.sh`, which gets all files of a given extension from a given URL. Since all the files have the extension `.ufo`, using this sccript made sense, and I chose to call it rather than just copy-paste the `wget` command and arguments it contains. There was almost certainly a way to achieve what I wanted with a single `wget` one-liner, but I chose to do it like this instead. I am more persistent than I am smart.
 
-### License
+### Missing Files
+Some files are missing:
+```
+271.ufo
+1271.ufo
+2001.ufo
+2241.ufo
+2340.ufo
+3340.ufo
+```
+These files may be lost to time. If anyone knows where they are, please let me know!
+
+#### License
 [![GNU General Public License](https://www.gnu.org/graphics/gplv3-88x31.png)](https://www.gnu.org/licenses/gpl-3.0.en.html)\
 [![Open Source](http://www.ipol.im/static/badges/open-source.png)](http://www.gnu.org/licenses/gpl.html)\
 [![Hacker Emblem](http://catb.org/hacker-emblem/hacker.png)](http://www.catb.org/hacker-emblem/)
